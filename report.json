@@ -1,0 +1,490 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-09-05",
+  "synthetic_demo": true,
+  "counts": {
+    "input_rows": 16,
+    "retained_reviews": 8,
+    "retry_rows_collapsed": 1,
+    "quarantined_rows": 7,
+    "candidate_groups": 1
+  },
+  "reviews": [
+    {
+      "id": "01e039e39030d26b",
+      "clinic_id": "spring-gangnam",
+      "clinic_name": "Spring Clinic · Gangnam (fictional)",
+      "clinic_match_method": "source_clinic_id",
+      "record_ids": [
+        "r11"
+      ],
+      "source": "review-board",
+      "source_review_id": "a104",
+      "source_url": "https://reviews.example/reviews/a104",
+      "published_at": "2026-09-01",
+      "language": "ko",
+      "original_text": "버스로 방문했습니다. 예약 시간을 바꾸고 싶었는데 전화로 변경할 수 있었고, 다음 주에 다시 방문하기로 했습니다.",
+      "translation_en": "I prepared questions before the consultation. Staff explained the cost and next appointment, and gave me written instructions.",
+      "translation_status": "draft_not_reviewed",
+      "rating": 4.0,
+      "procedure_verification": "not_verified",
+      "publication_status": "needs_editorial_review",
+      "raw_records": [
+        {
+          "record_id": "r11",
+          "source": "review-board",
+          "source_review_id": "a104",
+          "source_clinic_id": "spring-gn",
+          "clinic_name": "봄 클리닉",
+          "source_url": "https://reviews.example/reviews/a104",
+          "language": "ko",
+          "original_text": "버스로 방문했습니다. 예약 시간을 바꾸고 싶었는데 전화로 변경할 수 있었고, 다음 주에 다시 방문하기로 했습니다.",
+          "translation_en": "I prepared questions before the consultation. Staff explained the cost and next appointment, and gave me written instructions.",
+          "published_at": "2026-09-01",
+          "rating": 4.0,
+          "fetched_at": "2026-09-05T06:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "2c1eebeb9ed6619e",
+      "clinic_id": "spring-busan",
+      "clinic_name": "Spring Clinic · Busan (fictional)",
+      "clinic_match_method": "source_clinic_id",
+      "record_ids": [
+        "r04"
+      ],
+      "source": "review-board",
+      "source_review_id": "b101",
+      "source_url": "https://reviews.example/reviews/b101",
+      "published_at": "2026-09-01",
+      "language": "ko",
+      "original_text": "상담 전에 질문 목록을 준비했습니다. 직원이 비용과 다음 방문 일정을 설명했고, 상담 후 안내문을 받았습니다.",
+      "translation_en": "I prepared questions before the consultation. Staff explained the cost and next appointment, and gave me written instructions.",
+      "translation_status": "draft_not_reviewed",
+      "rating": 4.0,
+      "procedure_verification": "not_verified",
+      "publication_status": "needs_editorial_review",
+      "raw_records": [
+        {
+          "record_id": "r04",
+          "source": "review-board",
+          "source_review_id": "b101",
+          "source_clinic_id": "spring-bs",
+          "clinic_name": "봄 클리닉",
+          "source_url": "https://reviews.example/reviews/b101",
+          "language": "ko",
+          "original_text": "상담 전에 질문 목록을 준비했습니다. 직원이 비용과 다음 방문 일정을 설명했고, 상담 후 안내문을 받았습니다.",
+          "translation_en": "I prepared questions before the consultation. Staff explained the cost and next appointment, and gave me written instructions.",
+          "published_at": "2026-09-01",
+          "rating": 4.0,
+          "fetched_at": "2026-09-05T06:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "360dab5bc6a05349",
+      "clinic_id": "moon-seoul",
+      "clinic_name": "Moon Clinic · Seoul (fictional)",
+      "clinic_match_method": "source_clinic_id",
+      "record_ids": [
+        "r06"
+      ],
+      "source": "review-board",
+      "source_review_id": "m201",
+      "source_url": "https://reviews.example/reviews/m201",
+      "published_at": "2026-09-01",
+      "language": "ko",
+      "original_text": "좋아요",
+      "translation_en": "Good.",
+      "translation_status": "draft_not_reviewed",
+      "rating": 4.0,
+      "procedure_verification": "not_verified",
+      "publication_status": "needs_editorial_review",
+      "raw_records": [
+        {
+          "record_id": "r06",
+          "source": "review-board",
+          "source_review_id": "m201",
+          "source_clinic_id": "moon-sl",
+          "clinic_name": "달 클리닉",
+          "source_url": "https://reviews.example/reviews/m201",
+          "language": "ko",
+          "original_text": "좋아요",
+          "translation_en": "Good.",
+          "published_at": "2026-09-01",
+          "rating": 4.0,
+          "fetched_at": "2026-09-05T06:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "71fb22cb03b2438d",
+      "clinic_id": "spring-gangnam",
+      "clinic_name": "Spring Clinic · Gangnam (fictional)",
+      "clinic_match_method": "source_clinic_id",
+      "record_ids": [
+        "r03"
+      ],
+      "source": "community",
+      "source_review_id": "c909",
+      "source_url": "https://community.example/posts/c909",
+      "published_at": "2026-09-01",
+      "language": "ko",
+      "original_text": "상담 전에 질문 목록을 준비했습니다. 직원이 비용과 다음 방문 일정을 설명했고, 상담 후 안내문을 받았습니다.",
+      "translation_en": "I prepared questions before the consultation. Staff explained the cost and next appointment, and gave me written instructions.",
+      "translation_status": "draft_not_reviewed",
+      "rating": 4.0,
+      "procedure_verification": "not_verified",
+      "publication_status": "needs_editorial_review",
+      "raw_records": [
+        {
+          "record_id": "r03",
+          "source": "community",
+          "source_review_id": "c909",
+          "source_clinic_id": "spring-seoul",
+          "clinic_name": "봄 클리닉",
+          "source_url": "https://community.example/posts/c909",
+          "language": "ko",
+          "original_text": "상담 전에 질문 목록을 준비했습니다. 직원이 비용과 다음 방문 일정을 설명했고, 상담 후 안내문을 받았습니다.",
+          "translation_en": "I prepared questions before the consultation. Staff explained the cost and next appointment, and gave me written instructions.",
+          "published_at": "2026-09-01",
+          "rating": 4.0,
+          "fetched_at": "2026-09-05T06:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "8b9306f6aecb0563",
+      "clinic_id": "moon-seoul",
+      "clinic_name": "Moon Clinic · Seoul (fictional)",
+      "clinic_match_method": "source_clinic_id",
+      "record_ids": [
+        "r07"
+      ],
+      "source": "review-board",
+      "source_review_id": "m202",
+      "source_url": "https://reviews.example/reviews/m202",
+      "published_at": "2026-09-01",
+      "language": "ko",
+      "original_text": "좋아요",
+      "translation_en": "Good.",
+      "translation_status": "draft_not_reviewed",
+      "rating": 4.0,
+      "procedure_verification": "not_verified",
+      "publication_status": "needs_editorial_review",
+      "raw_records": [
+        {
+          "record_id": "r07",
+          "source": "review-board",
+          "source_review_id": "m202",
+          "source_clinic_id": "moon-sl",
+          "clinic_name": "달 클리닉",
+          "source_url": "https://reviews.example/reviews/m202",
+          "language": "ko",
+          "original_text": "좋아요",
+          "translation_en": "Good.",
+          "published_at": "2026-09-01",
+          "rating": 4.0,
+          "fetched_at": "2026-09-05T06:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "8ba2977e5bbaffd9",
+      "clinic_id": "moon-seoul",
+      "clinic_name": "Moon Clinic · Seoul (fictional)",
+      "clinic_match_method": "source_clinic_id",
+      "record_ids": [
+        "r13"
+      ],
+      "source": "review-board",
+      "source_review_id": "m204",
+      "source_url": "https://reviews.example/reviews/m204",
+      "published_at": "2026-09-01",
+      "language": "en",
+      "original_text": "<script>alert('untrusted review')</script> This is a rendering safety fixture, not a real patient statement.",
+      "translation_en": "",
+      "translation_status": "not_provided",
+      "rating": 4.0,
+      "procedure_verification": "not_verified",
+      "publication_status": "needs_editorial_review",
+      "raw_records": [
+        {
+          "record_id": "r13",
+          "source": "review-board",
+          "source_review_id": "m204",
+          "source_clinic_id": "moon-sl",
+          "clinic_name": "달 클리닉",
+          "source_url": "https://reviews.example/reviews/m204",
+          "language": "en",
+          "original_text": "<script>alert('untrusted review')</script> This is a rendering safety fixture, not a real patient statement.",
+          "translation_en": "",
+          "published_at": "2026-09-01",
+          "rating": 4.0,
+          "fetched_at": "2026-09-05T06:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "bc3b3eea905cca76",
+      "clinic_id": "spring-gangnam",
+      "clinic_name": "Spring Clinic · Gangnam (fictional)",
+      "clinic_match_method": "source_clinic_id",
+      "record_ids": [
+        "r01",
+        "r02"
+      ],
+      "source": "review-board",
+      "source_review_id": "a101",
+      "source_url": "https://reviews.example/reviews/a101",
+      "published_at": "2026-09-01",
+      "language": "ko",
+      "original_text": "상담 전에 질문 목록을 준비했습니다. 직원이 비용과 다음 방문 일정을 설명했고, 상담 후 안내문을 받았습니다.",
+      "translation_en": "I prepared questions before the consultation. Staff explained the cost and next appointment, and gave me written instructions.",
+      "translation_status": "draft_not_reviewed",
+      "rating": 4.0,
+      "procedure_verification": "not_verified",
+      "publication_status": "needs_editorial_review",
+      "raw_records": [
+        {
+          "record_id": "r01",
+          "source": "review-board",
+          "source_review_id": "a101",
+          "source_clinic_id": "spring-gn",
+          "clinic_name": "봄 클리닉",
+          "source_url": "https://reviews.example/reviews/a101",
+          "language": "ko",
+          "original_text": "상담 전에 질문 목록을 준비했습니다. 직원이 비용과 다음 방문 일정을 설명했고, 상담 후 안내문을 받았습니다.",
+          "translation_en": "I prepared questions before the consultation. Staff explained the cost and next appointment, and gave me written instructions.",
+          "published_at": "2026-09-01",
+          "rating": 4.0,
+          "fetched_at": "2026-09-05T06:00:00Z"
+        },
+        {
+          "record_id": "r02",
+          "source": "review-board",
+          "source_review_id": "a101",
+          "source_clinic_id": "spring-gn",
+          "clinic_name": "봄 클리닉",
+          "source_url": "https://reviews.example/reviews/a101",
+          "language": "ko",
+          "original_text": "상담 전에 질문 목록을 준비했습니다. 직원이 비용과 다음 방문 일정을 설명했고, 상담 후 안내문을 받았습니다.",
+          "translation_en": "I prepared questions before the consultation. Staff explained the cost and next appointment, and gave me written instructions.",
+          "published_at": "2026-09-01",
+          "rating": 4.0,
+          "fetched_at": "2026-09-05T06:01:00Z"
+        }
+      ]
+    },
+    {
+      "id": "e614ca81ff2f9ef8",
+      "clinic_id": "moon-seoul",
+      "clinic_name": "Moon Clinic · Seoul (fictional)",
+      "clinic_match_method": "exact_curated_alias",
+      "record_ids": [
+        "r16"
+      ],
+      "source": "review-board",
+      "source_review_id": "m205",
+      "source_url": "https://reviews.example/reviews/m205",
+      "published_at": "2026-09-01",
+      "language": "ko",
+      "original_text": "예약 안내문을 읽었습니다.",
+      "translation_en": "",
+      "translation_status": "not_provided",
+      "rating": 4.0,
+      "procedure_verification": "not_verified",
+      "publication_status": "needs_editorial_review",
+      "raw_records": [
+        {
+          "record_id": "r16",
+          "source": "review-board",
+          "source_review_id": "m205",
+          "source_clinic_id": "",
+          "clinic_name": " Ｍｏｏｎ   Ｓｅｏｕｌ ",
+          "source_url": "https://reviews.example/reviews/m205",
+          "language": "ko",
+          "original_text": "예약 안내문을 읽었습니다.",
+          "translation_en": "",
+          "published_at": "2026-09-01",
+          "rating": 4.0,
+          "fetched_at": "2026-09-05T06:00:00Z"
+        }
+      ]
+    }
+  ],
+  "retries": [
+    {
+      "review_id": "bc3b3eea905cca76",
+      "record_ids": [
+        "r01",
+        "r02"
+      ],
+      "collapsed_rows": 1,
+      "reason": "identical_source_record_retry"
+    }
+  ],
+  "duplicate_candidates": [
+    {
+      "review_ids": [
+        "71fb22cb03b2438d",
+        "bc3b3eea905cca76"
+      ],
+      "reason": "matching_original_text_clinic_and_date",
+      "action": "review_manually_no_merge"
+    }
+  ],
+  "quarantine": [
+    {
+      "record_id": "r05",
+      "reasons": [
+        "ambiguous_clinic"
+      ],
+      "clinic_candidates": [
+        "spring-busan",
+        "spring-gangnam"
+      ],
+      "raw": {
+        "record_id": "r05",
+        "source": "review-board",
+        "source_review_id": "a102",
+        "source_clinic_id": "",
+        "clinic_name": "봄 클리닉",
+        "source_url": "https://reviews.example/reviews/a102",
+        "language": "ko",
+        "original_text": "상담 전에 질문 목록을 준비했습니다. 직원이 비용과 다음 방문 일정을 설명했고, 상담 후 안내문을 받았습니다.",
+        "translation_en": "I prepared questions before the consultation. Staff explained the cost and next appointment, and gave me written instructions.",
+        "published_at": "2026-09-01",
+        "rating": 4.0,
+        "fetched_at": "2026-09-05T06:00:00Z"
+      }
+    },
+    {
+      "record_id": "r08",
+      "reasons": [
+        "source_id_conflict"
+      ],
+      "clinic_candidates": [],
+      "raw": {
+        "record_id": "r08",
+        "source": "review-board",
+        "source_review_id": "m203",
+        "source_clinic_id": "moon-sl",
+        "clinic_name": "달 클리닉",
+        "source_url": "https://reviews.example/reviews/m203",
+        "language": "ko",
+        "original_text": "상담 전에 질문 목록을 준비했습니다. 직원이 비용과 다음 방문 일정을 설명했고, 상담 후 안내문을 받았습니다.",
+        "translation_en": "I prepared questions before the consultation. Staff explained the cost and next appointment, and gave me written instructions.",
+        "published_at": "2026-09-01",
+        "rating": 4.0,
+        "fetched_at": "2026-09-05T06:00:00Z"
+      }
+    },
+    {
+      "record_id": "r09",
+      "reasons": [
+        "source_id_conflict"
+      ],
+      "clinic_candidates": [],
+      "raw": {
+        "record_id": "r09",
+        "source": "review-board",
+        "source_review_id": "m203",
+        "source_clinic_id": "moon-sl",
+        "clinic_name": "달 클리닉",
+        "source_url": "https://reviews.example/reviews/m203",
+        "language": "ko",
+        "original_text": "상담 전에 질문 목록을 준비했습니다. 직원이 비용과 다음 방문 일정을 설명했고, 상담 후 안내문을 받았습니다.",
+        "translation_en": "I prepared questions before the consultation. Staff explained the cost and next appointment, and gave me written instructions.",
+        "published_at": "2026-09-01",
+        "rating": 2.0,
+        "fetched_at": "2026-09-05T06:00:00Z"
+      }
+    },
+    {
+      "record_id": "r10",
+      "reasons": [
+        "unapproved_source_url"
+      ],
+      "clinic_candidates": [],
+      "raw": {
+        "record_id": "r10",
+        "source": "review-board",
+        "source_review_id": "a103",
+        "source_clinic_id": "spring-gn",
+        "clinic_name": "봄 클리닉",
+        "source_url": "javascript:alert('untrusted')",
+        "language": "ko",
+        "original_text": "상담 전에 질문 목록을 준비했습니다. 직원이 비용과 다음 방문 일정을 설명했고, 상담 후 안내문을 받았습니다.",
+        "translation_en": "I prepared questions before the consultation. Staff explained the cost and next appointment, and gave me written instructions.",
+        "published_at": "2026-09-01",
+        "rating": 4.0,
+        "fetched_at": "2026-09-05T06:00:00Z"
+      }
+    },
+    {
+      "record_id": "r12",
+      "reasons": [
+        "missing_or_invalid_source_review_id"
+      ],
+      "clinic_candidates": [],
+      "raw": {
+        "record_id": "r12",
+        "source": "review-board",
+        "source_review_id": "",
+        "source_clinic_id": "spring-gn",
+        "clinic_name": "봄 클리닉",
+        "source_url": "https://reviews.example/reviews/a101",
+        "language": "ko",
+        "original_text": "상담 전에 질문 목록을 준비했습니다. 직원이 비용과 다음 방문 일정을 설명했고, 상담 후 안내문을 받았습니다.",
+        "translation_en": "I prepared questions before the consultation. Staff explained the cost and next appointment, and gave me written instructions.",
+        "published_at": "2026-09-01",
+        "rating": 4.0,
+        "fetched_at": "2026-09-05T06:00:00Z"
+      }
+    },
+    {
+      "record_id": "r14",
+      "reasons": [
+        "invalid_publication_date"
+      ],
+      "clinic_candidates": [],
+      "raw": {
+        "record_id": "r14",
+        "source": "review-board",
+        "source_review_id": "a105",
+        "source_clinic_id": "spring-gn",
+        "clinic_name": "봄 클리닉",
+        "source_url": "https://reviews.example/reviews/a105",
+        "language": "ko",
+        "original_text": "상담 전에 질문 목록을 준비했습니다. 직원이 비용과 다음 방문 일정을 설명했고, 상담 후 안내문을 받았습니다.",
+        "translation_en": "I prepared questions before the consultation. Staff explained the cost and next appointment, and gave me written instructions.",
+        "published_at": "2026-02-30",
+        "rating": 4.0,
+        "fetched_at": "2026-09-05T06:00:00Z"
+      }
+    },
+    {
+      "record_id": "r15",
+      "reasons": [
+        "unknown_source_clinic_id"
+      ],
+      "clinic_candidates": [],
+      "raw": {
+        "record_id": "r15",
+        "source": "review-board",
+        "source_review_id": "a106",
+        "source_clinic_id": "not-in-registry",
+        "clinic_name": "Spring Gangnam",
+        "source_url": "https://reviews.example/reviews/a106",
+        "language": "ko",
+        "original_text": "상담 전에 질문 목록을 준비했습니다. 직원이 비용과 다음 방문 일정을 설명했고, 상담 후 안내문을 받았습니다.",
+        "translation_en": "I prepared questions before the consultation. Staff explained the cost and next appointment, and gave me written instructions.",
+        "published_at": "2026-09-01",
+        "rating": 4.0,
+        "fetched_at": "2026-09-05T06:00:00Z"
+      }
+    }
+  ]
+}
