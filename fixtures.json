@@ -211,7 +211,8 @@
       "translation_en": "I prepared questions before the consultation. Staff explained the cost and next appointment, and gave me written instructions.",
       "published_at": "2026-09-01",
       "rating": 4.0,
-      "fetched_at": "2026-09-05T06:00:00Z"
+      "fetched_at": "2026-09-05T06:00:00Z",
+      "fixture_note": "Intentional bad-translation fixture: different original text was given the same English draft. This draft must not be published; matching translations must not merge reviews."
     },
     {
       "record_id": "r12",

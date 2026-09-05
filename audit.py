@@ -153,6 +153,7 @@ def audit(bundle: dict, as_of: date) -> dict:
             "source_url": row["source_url"], "published_at": row["published_at"],
             "language": row["language"], "original_text": row["original_text"],
             "translation_en": row.get("translation_en", ""),
+            "fixture_note": row.get("fixture_note", "") if bundle.get("synthetic_demo") is True else "",
             "translation_status": "draft_not_reviewed" if row.get("translation_en") else "not_provided",
             "rating": row["rating"], "procedure_verification": "not_verified",
             "publication_status": "needs_editorial_review",

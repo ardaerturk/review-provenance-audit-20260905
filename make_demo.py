@@ -31,7 +31,7 @@ def fixture():
             row("r08", source_review_id="m203", source_clinic_id="moon-sl", clinic_name="달 클리닉", source_url="https://reviews.example/reviews/m203"),
             row("r09", source_review_id="m203", source_clinic_id="moon-sl", clinic_name="달 클리닉", source_url="https://reviews.example/reviews/m203", rating=2.0),
             row("r10", source_review_id="a103", source_url="javascript:alert('untrusted')"),
-            row("r11", source_review_id="a104", source_url="https://reviews.example/reviews/a104", original_text="버스로 방문했습니다. 예약 시간을 바꾸고 싶었는데 전화로 변경할 수 있었고, 다음 주에 다시 방문하기로 했습니다."),
+            row("r11", source_review_id="a104", source_url="https://reviews.example/reviews/a104", original_text="버스로 방문했습니다. 예약 시간을 바꾸고 싶었는데 전화로 변경할 수 있었고, 다음 주에 다시 방문하기로 했습니다.", fixture_note="Intentional bad-translation fixture: different original text was given the same English draft. This draft must not be published; matching translations must not merge reviews."),
             row("r12", source_review_id=""),
             row("r13", source_review_id="m204", source_clinic_id="moon-sl", clinic_name="달 클리닉", source_url="https://reviews.example/reviews/m204", language="en", original_text="<script>alert('untrusted review')</script> This is a rendering safety fixture, not a real patient statement.", translation_en=""),
             row("r14", source_review_id="a105", source_url="https://reviews.example/reviews/a105", published_at="2026-02-30"),
